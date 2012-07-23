@@ -1,0 +1,45 @@
+<!-- This configfile is OPTIONAL, you probably do not need it, check the docs -->
+<vraptor>
+	<!--
+		loads a component. you just need it if your @Component
+		class is not inside of WEB-INF/classes, for example
+		inside a jar in WEB-INF/lib
+	-->
+	<!--
+		<component>com.company.project.Component</component>
+	-->
+
+	<!--
+		loads a component
+	-->
+	<!--
+		<converter>com.company.project.SpecialConverter</converter>
+	-->
+
+
+	<!--
+		loads a factory
+	-->
+	<!--
+		<factory>com.company.project.AuthorizationPlugin</factory>
+	-->
+
+	<!--
+		loads a plugin
+	-->
+	<!--
+		<plugin>com.company.project.AuthorizationPlugin</plugin>
+	-->
+
+	<!--
+		Changes the view manager to redirect to another directory pattern.
+		
+		You can, for instance, get the jsps inside of WEB-INF:
+		/WEB-INF/jsps/$component/$logic.$result.jsp
+		
+		Using view.properties you can change the view for each logic.
+	-->
+	<!--
+		<regex-view-manager>/$component/$logic.$result.jsp</regex-view-manager>
+	-->
+</vraptor>

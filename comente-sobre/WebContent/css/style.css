@@ -1,0 +1,128 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	margin: 0;
+	background-color: #222222;
+}
+
+#wrapper{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#geral{
+	width: 100%;
+	height: 100%;
+	
+}
+
+#topo{
+	background: url("../img/bg_header.jpg") no-repeat;
+	width: 960px;
+	height: 265px;
+}
+
+#title_topo{
+	cursor: pointer;
+	padding-top: 42px;
+	width: 675px;
+}
+
+.title_topo1{
+	color: white;
+   	font: bold 70px verdana;
+   	text-shadow: 6px 3px #333333;
+}
+.title_topo2{
+	color: white;
+    font: bold 20px verdana;
+    text-shadow: 3.1px 1.2px black;
+}
+
+#bottom{
+	background: url("../img/bg_footer.jpg") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    color: white;
+    font: bold 12px verdana;
+    height: 48px;
+    margin-top: 15px;
+    position: relative;
+    width: 960px;
+}
+
+#conteudo_geral{
+	background: url("../img/bg_post_repeat.jpg") ;
+	width: 595px;
+	height: auto;
+}
+#conteudo_topo{
+	background: url("../img/bg_post_top.jpg") no-repeat;
+	width: 595px;
+}
+#conteudo_meio{
+	padding-left: 68px;
+    padding-top: 14px;
+    text-align: left;
+}
+
+#conteudo_bottom{
+	background: url("../img/bg_post_btm.jpg") no-repeat;
+	width: 595px;
+	height: 48px;
+}
+#conteudo_title{
+	font: bold 15px verdana;
+    padding-top: 25px;
+    width: 420px;
+}
+#div_submit{
+	width: 463px;
+}
+#data{
+	background: url("../img/bg_post_date_sticky.jpg") no-repeat scroll 0 0 transparent;
+    color: white;
+    float: left;
+    font: bold 16px verdana;
+    height: 110px;
+    padding-top: 18px;
+    width: 42px;
+}
+#mes{
+	border-bottom: 1px solid;
+   	border-top: 1px solid;
+}
+#lista{
+	padding-left: 10px;
+    padding-top: 0;
+    text-align: left;
+}
+
+#autor{
+	font: 9px verdana;
+    width: 469px;
+}
+
+#mensagem{
+	font: 12px verdana;
+	padding-bottom: 28px;
+    padding-left: 61px;
+    padding-top: 10px;
+    width: 469px;
+    word-wrap: break-word;
+}
+
+#contador_geral{
+	width: 463px;
+}
+
+#contador{
+	font: bold 12px verdana;
+}
+
+#erro{
+	display: none;
+	font: bold 12px verdana;
+    text-align: center;
+    width: 459px;
+}
